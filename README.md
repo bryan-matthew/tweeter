@@ -9,20 +9,31 @@ A twitter-clone UDP social-networking application built with Python's socket mod
 
 
 ## Features
-- **Register**: registers a user to the tweeter application. It will take a handle (username), an IP address, and 3 ports (one port for communication between the tracker and itself, and two for following other users).
-- **Query handles**: returns a list of handles (usernames) that are currently registered in the tweeter application to the client.
-- **Follow**: follows another user
-- **Drop**: unfollows another user
-- **Tweet**: sends out a tweet (message) to the followers
-- **End tweet**: makes sure all the tweets are sent in the correct order
-- **Exit**: exits the application 
+- Register: registers a user to the tweeter application. It will take a handle (username), an IP address, and 3 ports (one port for communication between the tracker and itself, and two for following other users).
+- Query handles: returns a list of handles (usernames) that are currently registered in the tweeter application to the client.
+- Follow: follows another user
+- Drop: unfollows another user
+- Tweet: sends out a tweet (message) to the followers
+- End tweet: makes sure all the tweets are sent in the correct order
+- Exit: exits the application 
 
 ## Demo
+- Images & GIFs coming very soon
 
-https://youtube.com/video_demo
 
 ## Usage/Examples
-
+- Start the server
+```command
+python UDPServer.py
+# Enter an IP address for the server
+```
+- Start the client (One terminal for each user)
+```command
+python UDPClient.py 
+# Enter an IP address for the client
+# Enter an IP for the server
+# Enter the 3 port numbers that are going to be used
+```
 - Register
 ```command
 register @handle IP Port1 Port2 Port3
