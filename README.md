@@ -1,1 +1,64 @@
-# tweeter
+
+![Logo](https://i.ibb.co/4MPGGhX/tweeter-logo.png)
+
+
+# Tweeter Chatting Application
+
+A twitter-clone UDP social-networking application built with Python's socket module.
+
+
+
+## Features
+- **Register**: registers a user to the tweeter application. It will take a handle (username), an IP address, and 3 ports (one port for communication between the tracker and itself, and two for following other users).
+- **Query handles**: returns a list of handles (usernames) that are currently registered in the tweeter application to the client.
+- **Follow**: follows another user
+- **Drop**: unfollows another user
+- **Tweet**: sends out a tweet (message) to the followers
+- **End tweet**: makes sure all the tweets are sent in the correct order
+- **Exit**: exits the application 
+
+## Demo
+
+https://youtube.com/video_demo
+
+## Usage/Examples
+
+- Register
+```command
+register @handle IP Port1 Port2 Port3
+```
+- Query Handles
+```command
+query handles
+```
+- Follow
+```command
+follow @handle @handle_to_follow
+```
+- Unfollow
+```command
+drop @handle @handle_to_unfollow
+```
+- Tweet
+```command
+tweet @handle "message"
+```
+- End Tweet
+```command
+end tweet
+```
+- Exit
+```command
+exit
+```
+
+
+
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
+## Author(s)
+- [@bryan-matthew](https://www.github.com/bryan-matthew)
+
