@@ -17,8 +17,8 @@ A twitter-clone UDP social-networking application built with Python's socket mod
 - End tweet: makes sure all the tweets are sent in the correct order
 - Exit: exits the application 
 
-## Demo
-- Images & GIFs coming very soon
+## Demo Video
+https://www.youtube.com/watch?v=VLRv4gq_WjY&ab_channel=BryanMatthew
 
 
 ## Usage/Examples
