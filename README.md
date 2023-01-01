@@ -63,13 +63,6 @@ end tweet
 exit
 ```
 
-
-
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-
 ## Author(s)
 - [@bryan-matthew](https://www.github.com/bryan-matthew)
 
