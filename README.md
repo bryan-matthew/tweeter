@@ -6,7 +6,8 @@
 
 A twitter-clone UDP social-networking application built with Python's socket module.
 
-
+## Diagram (App Architecture)
+![Architecture](https://i.ibb.co/XDc4NsM/Screenshot-2023-07-31-133509.png)
 
 ## Features
 - Register: registers a user to the tweeter application. It will take a handle (username), an IP address, and 3 ports (one port for communication between the tracker and itself, and two for following other users).
